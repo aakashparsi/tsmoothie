@@ -68,7 +68,7 @@ import matplotlib.pyplot as plt
 from tsmoothie.utils_func import sim_randomwalk
 from tsmoothie.smoother import LowessSmoother
 
-# generate 3 randomwalks of lenght 200
+# generate 3 randomwalks of length 200
 np.random.seed(123)
 data = sim_randomwalk(n_series=3, timesteps=200, 
                       process_noise=10, measure_noise=30)
